@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6c54a99294.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span>Komal</span><br> Mairaj From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+ <!------------------------------------------------ ---------- About------------------------------------------- -->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.PNG">
+
+                   
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <P>
+                        I'm a versatile web developer with a passion for crafting exceptional online experiences. With expertise in WordPress, Shopify, frontend, and backend development, I bring a comprehensive skill set to every project. Whether it's designing captivating user interfaces, optimizing website performance, or architecting robust backend systems, I'm dedicated to creating websites that not only look great but also function flawlessly. My commitment to staying updated with the latest technologies and my problem-solving mindset ensures that I deliver innovative solutions tailored to your unique needs. Let's collaborate to turn your web aspirations into reality.
+                    </P>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Web Developer</span><br>HTML, CSS, JavaScript, and Responsive Design</li>
+                            <li><span>WordPress Specialist</span><br>Website Development and Customization</li>
+                            <li><span>Digital Marketing Strategist</span><br>SEO, SEM, Social Media, and Content Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - current</span><br>Web Development Freelancing projects</li>
+                            <li><span>2021 - 2022</span><br>Wordpress Online projects</li>
+                            <li><span>2023 - current</span><br>Digital Marketing On Freelancing Projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - current</span><br>Doing Bachelor's in Computer Science At Iqra University</li>
+                            <li><span>2022</span><br>Web Development course by Youtube,Great Learning, and Udemy </li>
+                            <li><span>2023</span><br>WordPress Course By Great Learning Academy</li>
+                            <li><span>2023</span><br>Digital Marketing Course by DigiSkills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------Services---------------------------------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Web Developer</h2>
+                    <p> 
+                        As a frontend developer, I specialize in creating exceptional user interfaces that captivate and engage your audience. My services encompass a range of key offerings, including responsive design, ensuring that your website functions seamlessly across all devices, from desktops to mobile phones. I take pride in custom web development, taking your concepts and transforming them into unique digital experiences. My expertise extends to optimizing UI/UX design, resulting in websites that not only look great but also enhance user engagement and satisfaction. To ensure top-notch performance, I fine-tune websites for lightning-fast loading times and ensure cross-browser compatibility. Beyond development, I provide ongoing support and maintenance to keep your website up-to-date and secure. Let's collaborate to elevate your online presence with frontend development that seamlessly combines aesthetics with functionality.
+                    </p>
+                       
+                </div>
+                <div>
+                    <i class="fa-brands fa-wordpress"></i>
+                    <h2>WordPress Specialist</h2>
+                    <p>
+                        Unlock the full potential of WordPress with my specialized services. I'm here to provide you with bespoke WordPress solutions that align perfectly with your goals and requirements. My expertise includes creating custom WordPress themes that not only reflect your brand identity but also offer a tailored user experience. I design and develop custom WordPress plugins to extend the functionality of your website, addressing unique needs and providing unique features. If you're in the e-commerce space, I specialize in building online stores using platforms like WooCommerce, focusing on driving sales and conversions. To ensure your website is operating at its best, I optimize its performance, implement robust security measures, and provide ongoing maintenance. Trust me to empower your online presence with WordPress solutions that are tailored to your objectives and deliver exceptional results.
+                    </p>
+                        
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-digital-ocean"></i>
+                    <h2>Digital Marketing Strategist</h2>
+                    <p>
+                        Drive online success through strategic digital marketing. As a seasoned digital marketing strategist, I offer a comprehensive suite of services designed to maximize your online visibility and engagement. My expertise in Search Engine Optimization (SEO) means that I can enhance your website's ranking in search engines, increasing organic traffic and visibility. For immediate results, I create targeted and cost-effective Pay-Per-Click (PPC) campaigns through Search Engine Marketing (SEM). Engaging content, ad campaigns, and community management are the cornerstones of my Social Media Marketing strategy, building a robust social presence that engages your audience. I specialize in Content Marketing, crafting compelling, SEO-optimized content that resonates with your target audience and boosts brand authority. In addition, my Email Marketing campaigns are designed to nurture leads and drive conversions. To track progress and refine strategies, I provide in-depth analysis and regular reporting. Elevate your digital presence and achieve your marketing goals with a tailored strategy that delivers measurable results.
+                    </p>
+                        
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--------------------------------Portfolio------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Portfolio Websites by HTML5, CSS, JavaScript</h3>
+                        <p>Created captivating and responsive portfolio websites using HTML5, CSS, and JavaScript. These showcase my frontend development expertise, emphasizing aesthetics, user experience, and interactive features.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Point of Sale (POS) System</h3>
+                        <p>Developed a comprehensive Point of Sale (POS) system, providing businesses with efficient inventory management, sales tracking, and reporting capabilities. This project reflects my ability to create practical solutions that enhance business operations.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Security System by WordPress</h3>
+                        <p>Developed a robust security system using WordPress, implementing advanced authentication and access control features to safeguard sensitive data. This project demonstrates my proficiency in WordPress customization and security.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"">See more</a>
+        </div>
+    </div>
+
+    <!-------------------------------------------------------Contact------------------------------------------------------->
+      
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Komalmairaj28@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 03*******75</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/komal-mairaj-985412234/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/My CV (2).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">hello</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Komal. Made with <i class="fa-solid fa-heart"></i> by Komal Mairaj</p>
+        </div>
+    </div>
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+       for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+     
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+   <script>
+    var sidemeu = document.getElementById("sidemenu");
+   
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+   </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxDMAdpw64fanuBhphy3XNivw7bQ4OTZECt2Z-rd2-eAGjILcGBQXBazy__MuyvTjbRnw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML =""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+</body>
+</html>
